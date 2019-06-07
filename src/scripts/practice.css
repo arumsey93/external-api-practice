@@ -1,0 +1,15 @@
+.foodList{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .foodList article{
+    max-width: 125px;
+    flex-basis: 100%;
+    border: 3px;
+    border-style: solid;
+    border-color: red;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+ }
